@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPPO Navigation Bar</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .navbar-nav .nav-link {
+            color: #6c757d;
+        }
+        .navbar-brand img {
+            height: 30px;
+        }
+        .search-bar {
+            border: 1px solid #e0e0e0;
+            border-radius: 20px;
+            padding: 5px 10px;
+        }
+        .search-bar input {
+            border: none;
+            outline: none;
+        }
+        .navbar-icons {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-icons i {
+            font-size: 20px;
+            margin-left: 15px;
+        }
+        .footer {
+            background-color: #000000;
+            padding: 40px 20px;
+        }
+        .footer h5 {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .card {
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .discount {
+            color: red;
+            font-weight: bold;
+        }
+        .exchange-bonus {
+            color: blue;
+            font-style: italic;
+        }
+        .price {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .original-price {
+            text-decoration: line-through;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="Home.html">OPPO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="WebSmartphones.html">Smartphones</a></li>
+                <li class="nav-item"><a class="nav-link" href="WebTab.html">Tablets</a></li>
+                <li class="nav-item"><a class="nav-link" href="webaudio.html">Audio</a></li>
+                <li class="nav-item"><a class="nav-link" href="WebAccessories.html">Accessories</a></li>
+                <li class="nav-item"><a class="nav-link" href="WebAbout.html">About OPPO</a></li>
+                <li class="nav-item"><a class="nav-link" href="WebStore.html">Store</a></li>
+                
+                <li class="nav-item"><a class="nav-link" href="WebSupport.html">Support</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+            </ul>
+            <div class="navbar-icons">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search OPPO.com">
+                </div>     
+            </div>
+        </div>
+    </nav> 
+    <br>
+
+    <div class="container">
+        <h2 class="text-center my-4">Hot-Selling Smartphones Above ₹20,000</h2>
+        <div class="row">
+            <!-- Card for OPPO F29 Pro 5G -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="ph1.webp" class="card-img-top" alt="OPPO F29 Pro 5G">
+                    <div class="card-body">
+                        <p class="discount">15% OFF</p>
+                        <h5 class="card-title">OPPO F29 Pro 5G</h5>
+                        <p class="exchange-bonus">Exchange Bonus up to ₹2,500</p>
+                        <p class="price">₹27,999 <span class="original-price">₹32,999</span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card for OPPO F29 5G -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="ph2.webp" class="card-img-top" alt="OPPO F29 5G">
+                    <div class="card-body">
+                        <p class="discount">17% OFF</p>
+                        <h5 class="card-title">OPPO F29 5G</h5>
+                        <p class="exchange-bonus">Exchange Bonus up to ₹2,000</p>
+                        <p class="price">₹23,999 <span class="original-price">₹28,999</span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card for OPPO Reno13 Pro 5G -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="ph3.webp" class="card-img-top" alt="OPPO Reno13 Pro 5G">
+                    <div class="card-body">
+                        <p class="discount">9% OFF</p>
+                        <h5 class="card-title">OPPO Reno13 Pro</h5>
+                        <p class="exchange-bonus">Exchange Bonus up to ₹3,000</p>
+                        <p class="price">₹49,999 <span class="original-price">₹54,999</span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card for OPPO Reno13 5G -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="ph4.webp" class="card-img-top" alt="OPPO Reno13 5G">
+                    <div class="card-body">
+                        <p class="discount">9% OFF</p>
+                        <h5 class="card-title">OPPO Reno13 5G</h5>
+                        <p class="exchange-bonus">Exchange Bonus up to ₹3,000</p>
+                        <p class="price">₹37,999 <span class="original-price">₹41,999</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+        <h2 class="text-center my-4">Hot-Selling Smartphones Below ₹20,000</h2>
+        <div class="row">
+            <!-- Card for OPPO A5 Pro 5G -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="ph5.webp" class="card-img-top" alt="OPPO A5 Pro 5G">
+                    <div class="card-body">
+                        <p class="discount">18% OFF</p>
+                        <h5 class="card-title">OPPO A5 Pro 5G</h5>
+                        <p class="price">₹17,999 <span class="original-price">₹21,999</span></p>
+                        <p class="bank-offer">Bank Offer: Up to 5% Off</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Card for OPPO A3 Pro 5G -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="ph6.webp" class="card-img-top" alt="OPPO A3 Pro 5G">
+                    <div class="card-body">
+                        <p class="discount">19% OFF</p>
+                        <h5 class="card-title">OPPO A3 Pro 5G</h5>
+                        <p class="price">₹16,999 <span class="original-price">₹20,999</span></p>
+                        <p class="bank-offer">Bank Offer: Up to 5% Off</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card for OPPO A3 5G -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="ph7.webp" class="card-img-top" alt="OPPO A3 5G">
+                    <div class="card-body">
+                        <p class="discount">25% OFF</p>
+                        <h5 class="card-title">OPPO A3 5G</h5>
+                        <p class="price">₹14,999 <span class="original-price">₹19,999</span></p>
+                        <p class="bank-offer">Bank Offer: Up to 5% Off</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card for OPPO K12x 5G -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="ph8.webp" class="card-img-top" alt="OPPO K12x 5G">
+                    <div class="card-body">
+                        <p class="discount">23% OFF</p>
+                        <h5 class="card-title">OPPO K12x 5G</h5>
+                        <p class="price">₹12,999 <span class="original-price">₹16,999</span></p>
+                        <p class="bank-offer">Instant Discount: Up to ₹1,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Smartphones Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">Smartphones</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">OPPO Find N3 Flip</a></li>
+                        <li><a href="#">OPPO Find X8 Pro</a></li>
+                        <li><a href="#">OPPO Reno13 Pro 5G</a></li>
+                        <li><a href="#">See All Smartphones</a></li>
+                    </ul>
+                </div>
+                <!-- IoT Products Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">IoT Products</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">OPPO Pad Air</a></li>
+                        <li><a href="#">OPPO Enco Buds2</a></li>
+                        <li><a href="#">OPPO Enco Air2 Pro</a></li>
+                    </ul>
+                </div>
+                <!-- Special Offers Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">Special Offers</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Exchange Program</a></li>
+                        <li><a href="#">Education Discount</a></li>
+                    </ul>
+                </div>
+                <!-- Support Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Service Centers</a></li>
+                        <li><a href="#">Warranty Check</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <!-- About OPPO Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">About OPPO</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Career</a></li>
+                    </ul>
+                </div>
+                <!-- Community Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">Community</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">OPPO Community</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>  
+  </body>
+</html>

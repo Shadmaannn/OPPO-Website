@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPPO Navigation Bar</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .navbar-nav .nav-link {
+            color: #6c757d;
+        }
+        .navbar-brand img {
+            height: 30px;
+        }
+        .search-bar {
+            border: 1px solid #e0e0e0;
+            border-radius: 20px;
+            padding: 5px 10px;
+        }
+        .search-bar input {
+            border: none;
+            outline: none;
+        }
+        .navbar-icons {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-icons i {
+            font-size: 20px;
+            margin-left: 15px;
+        }
+        .footer {
+            background-color: #000000;
+            padding: 40px 20px;
+        }
+        .footer h5 {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="Home.html">OPPO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="WebSmartphones.html">Smartphones</a></li>
+                <li class="nav-item"><a class="nav-link" href="WebTab.html">Tablets</a></li>
+                <li class="nav-item"><a class="nav-link" href="webaudio.html">Audio</a></li>
+                <li class="nav-item"><a class="nav-link" href="WebAccessories.html">Accessories</a></li>
+                <li class="nav-item"><a class="nav-link" href="WebAbout.html">About OPPO</a></li>
+                <li class="nav-item"><a class="nav-link" href="WebStore.html">Store</a></li>
+                
+                <li class="nav-item"><a class="nav-link" href="WebSupport.html">Support</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+            </ul>
+            <div class="navbar-icons">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search OPPO.com">
+                </div>     
+            </div>
+        </div>
+    </nav> 
+
+    <video width="100%" height="100%" autoplay muted>
+        <source src="tab video.mp4" type="video/mp4">
+        <source src="tab video.mp4" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Smartphones Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">Smartphones</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">OPPO Find N3 Flip</a></li>
+                        <li><a href="#">OPPO Find X8 Pro</a></li>
+                        <li><a href="#">OPPO Reno13 Pro 5G</a></li>
+                        <li><a href="#">See All Smartphones</a></li>
+                    </ul>
+                </div>
+                <!-- IoT Products Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">IoT Products</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">OPPO Pad Air</a></li>
+                        <li><a href="#">OPPO Enco Buds2</a></li>
+                        <li><a href="#">OPPO Enco Air2 Pro</a></li>
+                    </ul>
+                </div>
+                <!-- Special Offers Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">Special Offers</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Exchange Program</a></li>
+                        <li><a href="#">Education Discount</a></li>
+                    </ul>
+                </div>
+                <!-- Support Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Service Centers</a></li>
+                        <li><a href="#">Warranty Check</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <!-- About OPPO Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">About OPPO</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Career</a></li>
+                    </ul>
+                </div>
+                <!-- Community Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">Community</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">OPPO Community</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>  
+  </body>
+</html>

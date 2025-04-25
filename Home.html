@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPPO Navigation Bar</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Add Bootstrap dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        .navbar-nav .nav-link {
+            color: #6c757d;
+        }
+        .navbar-brand img {
+            height: 30px;
+        }
+        .search-bar {
+            border: 1px solid #e0e0e0;
+            border-radius: 20px;
+            padding: 5px 10px;
+        }
+        .search-bar input {
+            border: none;
+            outline: none;
+        }
+        .navbar-icons {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-icons i {
+            font-size: 20px;
+            margin-left: 15px;
+        }
+        .card {
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 1rem;
+        }
+        .custom-card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+
+        .custom-card:hover {
+            transform: scale(1.05);
+        }
+
+        .custom-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .custom-card h5 {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .custom-card p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .custom-card .btn {
+            margin-top: 10px;
+        }
+        .offer-card {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .offer-card:hover {
+            transform: scale(1.05);
+        }
+        .offer-card .icon {
+            font-size: 40px;
+            color: #6c757d;
+            margin-bottom: 15px;
+        }
+        .offer-card h5 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .offer-card p {
+            color: #6c757d;
+        }
+        .footer {
+            background-color: #000000;
+            padding: 40px 20px;
+        }
+        .footer h5 {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        #last{
+            margin-top: 1px;
+            font-size: medium;
+            color: white;
+            background-color: #000000 !important;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="Home.html">OPPO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="WebSmartphones.html">Smartphones</a></li>
+                <li class="nav-item"><a class="nav-link" href="WebTab.html">Tablets</a></li>
+                <li class="nav-item"><a class="nav-link" href="webaudio.html">Audio</a></li>
+                <li class="nav-item"><a class="nav-link" href="WebAccessories.html">Accessories</a></li>
+                <li class="nav-item"><a class="nav-link" href="WebAbout.html">About OPPO</a></li>
+                <li class="nav-item"><a class="nav-link" href="WebStore.html">Store</a></li>
+                
+                <li class="nav-item"><a class="nav-link" href="WebSupport.html">Support</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+            </ul>
+            <div class="navbar-icons">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search OPPO.com">
+                </div>     
+            </div>
+        </div>
+    </nav>
+    <div id="imgtext">
+        
+        <img class="backimg" src="oppo.png" alt="" height="auto" width="100%">
+       
+    </div><br>
+
+    <h2 style="text-align: center;">Earn Points with Task!</h2>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- First Card -->
+            <div class="col-md-6">
+                <div class="custom-card">
+                    <img src="oppo3.png" alt="Visit Page">
+                    <h5>Visit K13 5G Page</h5>
+                    <p>Earn 5,000 Points!</p>
+                    <button class="btn btn-dark">Go</button>
+                </div>
+            </div>
+
+            <!-- Second Card -->
+            <div class="col-md-6">
+                <div class="custom-card">
+                    <img src="oppo4.png" alt="Share Page">
+                    <h5>Share K13 5G Page</h5>
+                    <p>Earn 5,000 Points!</p>
+                    <button class="btn btn-dark">Go</button>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+
+    <h2 style="text-align: center;">Unlock K13 5G Brilliance</h2>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- First Card -->
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="imgoppo.png" class="card-img-top" alt="Qualcomm Snapdragon 6 Gen 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Qualcomm Snapdragon 6 Gen 4</h5>
+                        <p class="card-text">Latest Lag killer at your fingertips.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Card -->
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="imgoppo2.png" class="card-img-top" alt="7000mAh Battery">
+                    <div class="card-body">
+                        <h5 class="card-title">7000mAh Battery</h5>
+                        <p class="card-text">5-years of durability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">OPPO Store Offers</h2>
+        <div class="row">
+            <!-- Exchange Program -->
+            <div class="col-md-3">
+                <div class="offer-card">
+                    <div class="icon">&#x21bb;</div>
+                    <h5>Exchange Program</h5>
+                </div>
+            </div>
+            <!-- OPPO Points Benefits -->
+            <div class="col-md-3">
+                <div class="offer-card">
+                    <div class="icon">&#9733;</div>
+                    <h5>OPPO Points Benefits</h5>
+                    
+                </div>
+            </div>
+            <!-- Cash On Delivery -->
+            <div class="col-md-3">
+                <div class="offer-card">
+                    <div class="icon">&#128179;</div>
+                    <h5>Cash On Delivery</h5>
+                </div>
+            </div>
+            <!-- One Day Delivery -->
+            <div class="col-md-3">
+                <div class="offer-card">
+                    <div class="icon">&#128666;</div>
+                    <h5>One Day Delivery</h5>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Smartphones Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">Smartphones</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">OPPO Find N3 Flip</a></li>
+                        <li><a href="#">OPPO Find X8 Pro</a></li>
+                        <li><a href="#">OPPO Reno13 Pro 5G</a></li>
+                        <li><a href="#">See All Smartphones</a></li>
+                    </ul>
+                </div>
+                <!-- IoT Products Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">IoT Products</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">OPPO Pad Air</a></li>
+                        <li><a href="#">OPPO Enco Buds2</a></li>
+                        <li><a href="#">OPPO Enco Air2 Pro</a></li>
+                    </ul>
+                </div>
+                <!-- Special Offers Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">Special Offers</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Exchange Program</a></li>
+                        <li><a href="#">Education Discount</a></li>
+                    </ul>
+                </div>
+                <!-- Support Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Service Centers</a></li>
+                        <li><a href="#">Warranty Check</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <!-- About OPPO Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">About OPPO</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Career</a></li>
+                    </ul>
+                </div>
+                <!-- Community Column -->
+                <div class="col-md-2">
+                    <h5 style="color: white;">Community</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">OPPO Community</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+  </body>
+
+</html>
